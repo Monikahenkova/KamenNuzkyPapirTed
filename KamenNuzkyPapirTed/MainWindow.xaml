@@ -7,7 +7,54 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox Name="txtbox" HorizontalAlignment="Left" Margin="38,38,38,38" Text="Textbox" TextWrapping="Wrap" VerticalAlignment="Top" Width="717" Height="348"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" Fill="Blue" VerticalAlignment="Center" Width="43"/>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" Fill="Blue" VerticalAlignment="Center" Width="43" Grid.Column="1"/>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" Fill="Blue" VerticalAlignment="Center" Width="43" Grid.Column="1" Grid.Row="1"/>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" Fill="Blue" VerticalAlignment="Center" Width="43" Grid.Row="1" Fill="Black"/>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" Fill="" VerticalAlignment="Center" Width="43" Grid.Row="13"/>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" VerticalAlignment="Center" Width="43" Grid.Column="1" Grid.Row="13"/>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" VerticalAlignment="Center" Width="43" Grid.Column="1" Grid.Row="12"/>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" VerticalAlignment="Center" Width="43" Grid.Row="12"/>
+            <Ellipse HorizontalAlignment="Center" Height="31" Stroke="Black" VerticalAlignment="Center" Width="43" Grid.Column="13"/>
+        </Grid>
+
 
     </Grid>
 </Window>
